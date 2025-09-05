@@ -30,8 +30,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 25px;
+    margin-top: 25px;
     z-index: 2;
 }
 
@@ -110,6 +110,14 @@ footer {
     color: rgb(195, 195, 195);
     background: linear-gradient(to right, #afafaf, #202020, #afafaf);
     border-top: 1px solid #1f1f1f;
+}
+
+p {
+    margin-bottom: 20px
+}
+
+img {
+    margin-bottom: 30px;
 }
 
 a:hover {
