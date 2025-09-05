@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f0e6;   
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 1;
+    transition: opacity 0.12s ease;
+}
+
+body.fade-out {
+opacity: 0;
+
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #1f1f1f;
+    background: linear-gradient(to right, #202020, #afafaf, #202020);
+    padding: 20px;
+    font-size: x-large;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    font-size: large;
+}
+
+.conteudo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    flex-direction: row;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    text-align: center;
+    margin: 8px;
+    font-size: larger;
+}
+
+.conteudo h1 {
+    margin-bottom: 25px;
+    font-size: xxx-large;
+}
+
+.conteudo h2 {
+    margin-bottom: 40px;
+    font-size: xxx-large;
+}
+
+.conteudo h3 {
+    font-weight: normal;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+}
+
+.fotos-familias {
+    width: 600px;
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+
+li {
+    padding-bottom: 25px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+    color: #1f1f1f;
+    background: linear-gradient(to right, #202020, #afafaf, #202020);
+    border-top: 1px solid #1f1f1f;
+}
+
+
