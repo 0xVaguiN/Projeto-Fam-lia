@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Varela+Round&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@ body {
     padding: 0;
     background-color: #f7f0e6;   
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     opacity: 1;
     transition: opacity 0.12s ease;
 }
@@ -18,14 +20,34 @@ opacity: 0;
 
 }
 
+a {
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.voltar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20px;
+    margin-top: 20px;
+    z-index: 2;
+}
+
 .cabecalho {
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #1f1f1f;
-    background: linear-gradient(to right, #202020, #afafaf, #202020);
+    color: whitesmoke;
+    background: linear-gradient(to right, #afafaf, #202020, #afafaf);
+    font-family: "Carattere", cursive;
+    font-weight: 300;
+    font-style: italic;
     padding: 20px;
-    font-size: x-large;
+    font-size: xx-large;
+    z-index: 0;
 }
 
 .intro {
@@ -84,9 +106,14 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: small;
-    color: #1f1f1f;
-    background: linear-gradient(to right, #202020, #afafaf, #202020);
+    color: rgb(195, 195, 195);
+    background: linear-gradient(to right, #afafaf, #202020, #afafaf);
     border-top: 1px solid #1f1f1f;
+}
+
+a:hover {
+    transform: translate(-3px, -3px);
+    color: #000000;
 }
 
 

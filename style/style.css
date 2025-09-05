@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,9 +25,13 @@ opacity: 0;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #1f1f1f;
-    background: linear-gradient(to right, #202020, #afafaf, #202020);;
+    color: whitesmoke;
+    background: linear-gradient(to right, #afafaf, #202020, #afafaf);
+    font-family: "Carattere", cursive;
+    font-weight: 300;
+    font-style: italic;
     padding: 20px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .intro {
@@ -49,13 +55,16 @@ opacity: 0;
     flex-direction: column;
     text-align: center;
     margin: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-family: "Carattere", cursive;
+    font-size: x-large;
+
 }
 
 .conteudo h2 {
-    margin-bottom: 40px;
-    font-size: xxx-large;
+    margin: 10px;
+    font-size: 60px;
+    font-family: "Carattere", cursive;
+    font-style: italic;
 }
 
 .brasoes {
@@ -75,8 +84,8 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: small;
-    color: #1f1f1f;
-    background: linear-gradient(to right, #202020, #afafaf, #202020);
+    color: rgb(195, 195, 195);
+    background: linear-gradient(to right, #afafaf, #202020, #afafaf);
     border-top: 1px solid #1f1f1f;
 }
 
