@@ -92,9 +92,10 @@ a {
 }
 
 .fotos-familias {
-    width: 600px;
+    width: 500px;
     border-radius: 2rem;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 li {
@@ -114,6 +115,45 @@ footer {
 a:hover {
     transform: translate(-3px, -3px);
     color: #000000;
+}
+
+/* ===== LIGHTBOX ===== */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.lightbox-content {
+    max-width: 95%;
+    max-height: 90vh;
+    border: 3px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.close:hover {
+    color: #d6d5d5;
+    transform: scale(0.9);
 }
 
 
