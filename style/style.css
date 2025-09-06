@@ -89,5 +89,45 @@ footer {
     border-top: 1px solid #1f1f1f;
 }
 
+@media (max-width: 768px) {
+
+    .conteudo-container {
+        flex-direction: column;
+    }
+
+    .conteudo {
+        margin: 20px 0;
+    }
+
+    .brasoes {
+        width: 60%;
+        height: auto;
+        border-radius: 2rem;
+    }
+
+    .conteudo h2 {
+        font-size: 45px;
+    }
+
+    .conteudo {
+        font-size: larger;
+    }
+
+    .cabecalho {
+        padding: 10px;
+        font-size: x-large;
+    }
+
+    footer {
+        margin-top: 10px;
+        text-align: center;
+        padding: 10px;
+        font-size: x-small;
+        color: rgb(195, 195, 195);
+        background: linear-gradient(to right, #afafaf, #202020, #afafaf);
+        border-top: 1px solid #1f1f1f;
+    }
+}
+
 
 
