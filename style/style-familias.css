@@ -263,6 +263,7 @@ a:hover {
     }
 
     a {
+        -webkit-tap-highlight-color: transparent;
         color: inherit;
         text-decoration: none;
     }
